@@ -1,11 +1,9 @@
 body {
     margin: 0;
-    padding: 20px;
     background: white;
     color: black;
     font-family: Arial, sans-serif;
 }
-
 .center-container {
     text-align: center;
 }
@@ -88,4 +86,30 @@ h1 {
     .subtitle-btn {
         width: 80%;
     }
+}
+
+.center-container{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+h1{
+    font-size:70px;
+}
+
+.subtitle-btn{
+    width:320px;
+    padding:20px;
+    font-size:32px;
+}
+
+.notice{
+    font-size:24px;
+}
+
+.comic-link{
+    font-size:30px;
 }
