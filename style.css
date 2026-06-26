@@ -94,6 +94,7 @@ h1 {
     flex-direction:column;
     justify-content:center;
     align-items:center;
+    transform:translateY(-45px);
 }
 
 h1{
@@ -112,4 +113,8 @@ h1{
 
 .comic-link{
     font-size:30px;
+}
+
+.page-center{
+    text-align:center;
 }
